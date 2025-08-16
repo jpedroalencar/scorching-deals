@@ -37,6 +37,18 @@ body {
   }
 }
 
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 8px rgba(255, 140, 0, 0.8),
+      /* orange glow */
+      0 0 16px rgba(255, 69, 0, 0.6),
+      /* deeper red glow */
+      0 0 24px rgba(255, 0, 0, 0.5);
+    /* faint red glow */
+  }
+}
+
+
 .bg-animated-scorching {
   background: linear-gradient(-45deg, #991b1b, #dc2626, #ea580c, #f97316, #b91c1c, #7f1d1d);
   background-size: 400% 400%;
