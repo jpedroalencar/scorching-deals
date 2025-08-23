@@ -1,6 +1,10 @@
+import { createClient } from "@/app/lib/supabase/server";
 
+export default async function Home() {
 
-export default function Home() {
+  const supabase = await createClient();
+  await supabase.auth.getSession()
+
   return (
     <main className="min-h-[100dvh] flex items-center justify-center p-4">
       <section className="w-full max-w-screen-sm rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md shadow-xl px-5 py-8 text-center">

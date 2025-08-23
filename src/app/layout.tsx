@@ -24,14 +24,14 @@ export const metadata: Metadata = {
   description: "Find canada's hottest deals!",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} h-full m-0 text-white antialiased overflow-x-hidden`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} h-full m-0 text-white antialiased overflow-x-hidden`}>
         <div className="fixed inset-0 -z-10 bg-animated-scorching" />
         {children}
       </body>
