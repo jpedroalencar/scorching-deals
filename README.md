@@ -49,12 +49,12 @@ Unlike cluttered forums, it focuses on:
 
 ## Roadmap
 
-**Week 1** – Setup repo, Supabase schema, seed data, login + feed
-**Week 2** – Submit deal flow, deal detail, styling polish
-**Week 3** – Search + filters, voting/comments, SEO polish
-**Week 4** – Deploy to production domain, closed beta launch
+**Week 1/2** – Setup repo, Supabase schema, seed data, login + feed
+**Week 3/4** – Submit deal flow, deal detail, styling polish
+**Week 5/6** – Search + filters, voting/comments, SEO polish
+**Week 7/8** – Deploy to production domain, closed beta launch
 
-> 🎯 MVP goal: Validate community adoption in ≤1 month
+> 🎯 MVP goal: Validate in 2 month
 
 ---
 
