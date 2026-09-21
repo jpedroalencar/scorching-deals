@@ -8,8 +8,6 @@ Price tracking and deal aggregation platform designed to capture daily price sna
 
 ## Architecture Plan
 
-The platform uses a decoupled, polyglot architecture:
-
 - **Data Ingestion (Python):** Headless script that fetches product pricing data, normalize inputs, and records snapshots.
 - **Database (PostgreSQL):** Relational data store for integrity and quick querying
 - **Core API (Java Spring Boot):** RESTful service exposing normalized Data Transfer Objects
@@ -27,7 +25,7 @@ The platform uses a decoupled, polyglot architecture:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/scorching-deals.git
+git clone https://github.com/jpedroalencar/scorching-deals.git
 cd scorching-deals
 ```
 
@@ -42,14 +40,8 @@ DB_NAME=scorchingdeals
 SERPAPI_KEY=your_api_key
 ```
 
-### 3. Start Database Infrastructure
+### 3. Start Database
 
 ```bash
 docker compose up -d postgres
 ```
-
-Detailed component execution instructions will be documented as the services are scaffolded.
-
-## License
-
-This project is licensed under the MIT License.

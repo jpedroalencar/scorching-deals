@@ -10,6 +10,26 @@
 !.yarn/releases
 !.yarn/versions
 
+#python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+#java
+target/
+build/
+*.class
+*.jar
+*.war
+
+#ide
+.idea/
+*.iml
+.vscode/
+
 # testing
 /coverage
 
@@ -41,5 +61,3 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#supabase
-.supabase
